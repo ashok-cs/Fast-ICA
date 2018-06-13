@@ -1,0 +1,3 @@
+# Implementation and Optimization of Fast-ICA Algorithm
+
+Independent component analysis (ICA) is a recently proposed method as a solution to the blind source separation problem. The objective is to recover the unobserved source signals from the observed mixtures without the knowledge of the mixing coefficients. It has the potential for a wide range of applications in industrial, medical, security, and military fields because it reduces the complex problem of dealing with high-dimensional statistical descriptions to products of one-dimensional density functions[1,2]. For majority of applications, it is desirable to have a high performance implementation for real-time analysis. I intend to implement the algorithm with pipeline parallelism.
